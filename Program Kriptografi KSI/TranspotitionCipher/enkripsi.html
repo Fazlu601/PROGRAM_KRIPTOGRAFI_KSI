@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Transposition Chipper</title>
+</head>
+<link rel="stylesheet" href="bootstrap.css">
+<body>
+	<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>KRIPTOGRAFI MENU</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body style=" background-color: rgba(0, 0, 0, 0.805);">
+
+      <div class="navbar">
+          <div class="wrapping">
+              <h3>Caesar Cipher</h3>
+          </div>
+          <ul class="menu-navigasi">
+              <li>
+                  <a href="../navigasi.html">Cipher</a>
+              </li>
+              <li>
+                  <a href="/TranspotitionCipher/">Dokumentasi</a>
+              </li>
+              <li>
+                  <a href="enkripsi.html">Enkripsi</a>
+              </li>
+              <li>
+                  <a href="deskripsi.html">Dekripsi</a>
+              </li>
+          </ul>
+      </div>
+
+    <div class="container">
+
+        <div class="row d-flex justify-content-center" style="background-color: #eaeaea; padding: 30px;border-radius: 30px;width: 70%;margin: 10px auto;">
+           
+        <h1 style="text-align:center;color:#215732;font-weight: bold;border-bottom:2px solid #215732;margin-bottom:20px;">TRANSPOSITION CIPHER</h1>
+         <div class="form-group">
+            <h4 class="text-center" style="color:#215732 ;">PlainText :</h4>
+
+            <textarea id="p" class="form-control" name="p" rows="4" cols="50"></textarea>
+
+         </div>
+            
+         <div class="form-group">
+            <h4 class="text-center" style="color:#215732 ;">Keyword :</h4>
+            <input id="key" class="form-control" name="key" size="10" type="text"> 
+         </div>
+
+
+        <div class="form-group">
+            <h4 class="text-center" style="color:#215732 ;">CipherText :</h4>
+            <textarea id="c" class="form-control" name="c" rows="4" cols="50"></textarea>
+        </div>
+              
+        <div class="form-group text-center">
+            <input id="pc" name="pc"  size="1" value="x" type="hidden">
+            <input name="btnEn"  class="btn btn-enkripsi" value="Encrypt" onclick="Encrypt()" type="button"> 
+        </div>
+   
+        
+        </div>
+	
+</div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="script.js">
+     </script>
+  </body>
+</html>

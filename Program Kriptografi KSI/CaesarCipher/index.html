@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>Caesar Cipher</title>
+    <style>
+        body{
+            background-color: rgba(0, 0, 0, 0.805);
+        }
+    </style>s
+</head>
+<body>
+        <div class="container">
+            <div class="navbar">
+                <div class="wrapping">
+                    <h3>Caesar Cipher</h3>
+                </div>
+                <ul class="menu-navigasi">
+                    <li>
+                        <a href="../navigasi.html">Cipher</a>
+                    </li>
+                    <li>
+                        <a href="">Dokumentasi</a>
+                    </li>
+                    <li>
+                        <a href="">Program</a>
+                    </li>
+                </ul>
+            </div>
+           
+            <div class="row">
+                <div class="col">
+                    <form>
+                        <h1 style="text-align:center;color:#dd0531;font-weight: bold;border-bottom:2px solid #dd0531;margin-bottom:20px;">CAESAR CIPHER</h1>
+                        <div class="form-group">
+                            <textarea name="sourceText" class="form-control" spellcheck="false" id="text" cols="35" rows="5"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <!-- <label for="shift">Key :</label> -->
+                              <input type="hidden" name="shift" value="3">
+                            <!-- <select id="shift" name="shift" class="form-control" id="">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select> -->
+                        </div>
+                        <div class="form-group">
+                            <input type="button" class="btn" id="decrypt" 
+                            value="Encrypt" 
+                            onclick="encryptText();">
+                            <input type="button" class="btn" id="decrypt" 
+                           value="Decrypt" 
+                           onclick="decryptText();">  
+                        </div>
+                        <div class="form-group">
+                            <input type="button" class="btn-reset" id="" 
+                           value="Reset" >  
+                        </div>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+
+        <script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>
